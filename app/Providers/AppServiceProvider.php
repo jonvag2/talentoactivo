@@ -11,12 +11,12 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    /* public function register()
+    public function register()
     {
         $this->app->bind('path.public',function(){
             return'/home/talentoa/public_html/talentoactivoglobal.com';
             });
-    } */
+    }
 
     /**
      * Bootstrap any application services.
